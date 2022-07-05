@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-token = os.getenv('DISCORD_TOKEN')
+token = os.getenv('TOKEN')
 
 intents = discord.Intents.default()
 intents.members = True
