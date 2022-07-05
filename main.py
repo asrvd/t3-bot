@@ -1,12 +1,12 @@
 import discord
 from discord.ext import commands
-from .utils import return_issue_or_pr
+from utils import return_issue_or_pr
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-token = os.getenv('TOKEN')
+token = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
 intents.members = True
