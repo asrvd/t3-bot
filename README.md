@@ -1,0 +1,1 @@
+simple & private discord bot for the [t3](https://t3.gg) community.
